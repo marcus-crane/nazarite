@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+#trees {
+  position: absolute;
+  z-index: 4;
+}
+
+#scroll {
+  position: relative;
+  top: 15em;
+  z-index: 2;
+}
+
+#rocks {
+  position: absolute;
+  z-index: 3;
+}
+
+#story {
+  margin: 0 auto;
+  position: relative;
+  top: 17em;
+  width: 75%;
+  z-index: 4;
+}
