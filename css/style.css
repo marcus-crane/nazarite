@@ -1,6 +1,12 @@
+/* Global styles */
+
 * {
   margin: 0;
   padding: 0;
+}
+
+img {
+  width: 100%;
 }
 
 #background, #header, #content {
@@ -9,9 +15,32 @@
   top: 0px;
   position: absolute;
   width: 100%;
+}
+
+/* Layering */
+
+#background {
   z-index: 0;
 }
 
-img {
-  width: 100%;
+#content {
+  z-index: 1;
+}
+
+/* Blocks */
+
+#header {
+  z-index: 2;
+}
+
+/* Individual elements */
+
+#scroll {
+  margin-top: 20%;
+}
+
+#story {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
 }
