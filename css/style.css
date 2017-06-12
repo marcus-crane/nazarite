@@ -36,11 +36,22 @@ img {
 /* Individual elements */
 
 #scroll {
-  margin-top: 20%;
+  margin-top: 12%;
+  transform: translateZ(-1px) scale(0.75);
 }
 
 #story {
   display: block;
   margin: 0 auto;
-  width: 75%;
+  transform: translateZ(-1px) scale(0.8);
+  width: 80%;
+}
+
+#trees {
+  margin-top: -50px;
+  transform: translateZ(3px) scale(1);
+}
+
+#rocks {
+  transform: translateZ(3px) scale(1);
 }
