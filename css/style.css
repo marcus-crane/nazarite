@@ -8,23 +8,28 @@ div {
 }
 
 .trees {
-  z-index: 4;
+  position: absolute;
   width: 100%;
+  z-index: 4;
 }
 
 .scroll {
-  z-index: 2;
-  width: 100%;
-}
-
-.story {
+  position: relative;
+  top: 10em;
   z-index: 2;
   width: 100%;
 }
 
 .rocks {
-  z-index: 1;
+  position: absolute;
+  z-index: 3;
   width: 100%;
 }
 
-
+.story {
+  margin: 0 auto;
+  position: relative;
+  top: 17em;
+  z-index: 4;
+  width: 75%;
+}
