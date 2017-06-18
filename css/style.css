@@ -54,7 +54,7 @@ div {
 }
 
 /* Media Queries */
-@media (min-width: 800px) {
+@media (min-width: 200px) {
   #scroll {
     top: 12em;
   }
