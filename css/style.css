@@ -7,29 +7,46 @@ div {
   box-sizing: border-box;
 }
 
-.trees {
+#trees {
   position: absolute;
   width: 100%;
   z-index: 4;
 }
 
-.scroll {
-  position: relative;
-  top: 10em;
-  z-index: 2;
+#trees img {
   width: 100%;
 }
 
-.rocks {
+#scroll {
+  margin: 0 auto;
+  position: relative;
+  top: 10em;
+  z-index: 2;
+  width: 80%;
+}
+
+#scroll img {
+  width: 100%;
+}
+
+#rocks {
   position: absolute;
   z-index: 3;
   width: 100%;
 }
 
-.story {
+#rocks img {
+  width: 100%;
+}
+
+#story {
   margin: 0 auto;
   position: relative;
   top: 17em;
   z-index: 4;
   width: 75%;
+}
+
+#story img {
+  width: 100%;
 }
