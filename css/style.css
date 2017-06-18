@@ -1,57 +1,50 @@
-/* Global styles */
-
-* {
-  margin: 0;
-  padding: 0;
+div {
+  box-sizing: border-box;
 }
 
-img {
+#wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  perspective: 2px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#group1 {
+  position: relative;
+  transform-style: preserve-3d;
+  font-size: 20px;
+}
+
+.scroll {
+  transform: translateZ(-0.5px);
   width: 100%;
-}
-
-#background, #header, #content {
-  display: block;
-  left: 0px;
-  top: 0px;
   position: absolute;
-  width: 100%;
-}
-
-/* Layering */
-
-#background {
-  z-index: 0;
-}
-
-#content {
-  z-index: 1;
-}
-
-/* Blocks */
-
-#header {
+  top: 0;
+  padding-top: 100px;
   z-index: 2;
 }
 
-/* Individual elements */
-
-#scroll {
-  margin-top: 12%;
-  transform: translateZ(-1px) scale(0.75);
+.rocks {
+  position: absolute;
+  top: 2em;
+  width: 100%;
+  z-index: 1;
 }
 
-#story {
-  display: block;
-  margin: 0 auto;
-  transform: translateZ(-1px) scale(0.8);
-  width: 80%;
+.trees {
+  position: absolute;
+  width: 100%;
+  z-index: 4;
 }
 
-#trees {
-  margin-top: -50px;
-  transform: translateZ(3px) scale(1);
-}
-
-#rocks {
-  transform: translateZ(3px) scale(1);
+.story {
+  position: absolute;
+  top: 0;
+  transform: translateZ(-0.5px);
+  width: 100%;
+  z-index: 2;
 }
