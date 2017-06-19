@@ -10,9 +10,9 @@ console.log(width)
 
 if (width > 0 && width < 665) {
   trees.dataset.rellaxSpeed = -2
-  rocks.dataset.rellaxSpeed = 400
+  rocks.dataset.rellaxSpeed = 25
   scroll.dataset.rellaxSpeed = -6
-  story.dataset.rellaxSpeed = -10
+  story.dataset.rellaxSpeed = -6
 } else {
   console.log('too big')
 }
