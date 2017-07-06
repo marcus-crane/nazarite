@@ -11,7 +11,7 @@ if (navigator.userAgent.includes('Chrome')) {
   if (width > 0 && width <= 665) {
     trees.dataset.rellaxSpeed = -2
     rocks.dataset.rellaxSpeed = 10
-    scroll.dataset.rellaxSpeed = -6
+    scroll.dataset.rellaxSpeed = -3
     story.dataset.rellaxSpeed = -3
   }
 
@@ -25,8 +25,8 @@ if (navigator.userAgent.includes('Chrome')) {
   if (width >= 801 && width <= 1000) {
     trees.dataset.rellaxSpeed = -2
     rocks.dataset.rellaxSpeed = 10
-    scroll.dataset.rellaxSpeed = -8
-    story.dataset.rellaxSpeed = -4
+    scroll.dataset.rellaxSpeed = -3.5
+    story.dataset.rellaxSpeed = -3.5
   }
 
   if (width > 1000) {
