@@ -45,11 +45,11 @@ div {
 #story {
   margin: 0 auto;
   position: relative;
-  z-index: 2;
+  z-index: 5;
   width: 75%;
 }
 
-#story img {
+#story img, #modalDesc img {
   width: 100%;
 }
 
