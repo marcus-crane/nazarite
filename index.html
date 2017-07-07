@@ -89,7 +89,9 @@
   <script src="js/responsiveness.js" type="text/javascript"></script>
   <script src="js/rellax.min.js" type="text/javascript"></script>
   <script>
-    var rellax = new Rellax('.rellax');
+    document.addEventListener('DOMContentLoaded', function() {
+      var rellax = new Rellax('.rellax')
+    })
   </script>
 </body>
 </html>
