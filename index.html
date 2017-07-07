@@ -19,7 +19,7 @@
   </div>
   <div class="rellax" id="story">
     <a href="#chapter-1">
-      <img src="img/samson_icon_2.png">
+      <img src="img/samson_icon_1.png">
     </a>
     <a href="#chapter-2">
       <img src="img/samson_icon_2.png">
@@ -89,7 +89,9 @@
   <script src="js/responsiveness.js" type="text/javascript"></script>
   <script src="js/rellax.min.js" type="text/javascript"></script>
   <script>
-    var rellax = new Rellax('.rellax');
+    document.addEventListener('DOMContentLoaded', function() {
+      var rellax = new Rellax('.rellax')
+    })
   </script>
 </body>
 </html>
