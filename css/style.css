@@ -57,7 +57,7 @@ div {
   display: none;
 }
 
-button {
+button.chapter1, button.chapter2, button.chapter3, button.chapter4 {
   border: 0;
   background: transparent;
 }
