@@ -14,6 +14,7 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@bobandiiraps" />
 
+    <link rel="stylesheet" href="css/tingle.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal-default-theme.min.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
@@ -28,77 +29,48 @@
   <div class="rellax" id="scroll">
     <img src="img/scroll.png">
   </div>
+
   <div class="rellax" id="story">
-    <a href="#chapter-1">
+    <button class="chapter1">
       <img src="img/samson_icon_1.png">
-    </a>
-    <a href="#chapter-2">
+    </button>
+    <button class="chapter2">
       <img src="img/samson_icon_2.png">
-    </a>
-    <a href="#chapter-3">
+    </button>
+    <button class="chapter3">
       <img src="img/samson_icon_3.png">
-    </a>
-    <a href="#chapter-4">
+    </button>
+    <button class="chapter4">
       <img src="img/samson_icon_4.png">
-    </a>
+    </button>
   </div>
 
-  <div class="remodal" data-remodal-id="chapter-1" aria-labelledby="modalTitle" aria-describedby="modalDesc">
-    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-    <div>
-      <h2 id="modalTitle">Chapter 1</h2>
-      <br />
-      <p id="modalDesc">
-        <img src="img/samson_full_1.jpg">
-      </p>
-    </div>
-    <br>
-    <button data-remodal-action="confirm" class="remodal-confirm">Continue</button>
+  <div id="chapter1" class="modal-hidden">
+    <img src="img/samson_icon_1.png">
+    <p>Samson, a man imbued with incredible strength due to his connection with his God and his vow as a Nazarite. A vow to never cut his hair, nor let any wine touch his lips.</p>
   </div>
 
-  <div class="remodal" data-remodal-id="chapter-2" aria-labelledby="modalTitle" aria-describedby="modalDesc">
-    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-    <div>
-      <h2 id="modalTitle">Chapter 2</h2>
-      <br />
-      <p id="modalDesc">
-        <img src="img/samson_full_2.jpg">
-      </p>
-    </div>
-    <br>
-    <button data-remodal-action="confirm" class="remodal-confirm">Continue</button>
+  <div id="chapter2" class="modal-hidden">
+    <img src="img/samson_icon_2.png">
+    <p>Delilah, his lover. Samson had endured much and she eased his pain. Though she was not as she seemed; Deception lay behind those eyes.</p>
   </div>
 
-  <div class="remodal" data-remodal-id="chapter-3" aria-labelledby="modalTitle" aria-describedby="modalDesc">
-    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-    <div>
-      <h2 id="modalTitle">Chapter 3</h2>
-      <br />
-      <p id="modalDesc">
-        <img src="img/samson_full_3.jpg">
-      </p>
-    </div>
-    <br>
-    <button data-remodal-action="confirm" class="remodal-confirm">Continue</button>
+  <div id="chapter3" class="modal-hidden">
+    <img src="img/samson_icon_3.png">
+    <p>Betrayed by Delilah, his hair was cut from his head. His eyes were taken, and his strength destroyed. Samson was sold to his enemies to work until his dying days.</p>
   </div>
 
-  <div class="remodal" data-remodal-id="chapter-4" aria-labelledby="modalTitle" aria-describedby="modalDesc">
-    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-    <div>
-      <h2 id="modalTitle">Chapter 4</h2>
-      <br />
-      <p id="modalDesc">
-        <img src="img/samson_full_4.jpg">
-      </p>
-    </div>
-    <br>
-    <button data-remodal-action="confirm" class="remodal-confirm">Continue</button>
+  <div id="chapter4" class="modal-hidden">
+    <img src="img/samson_icon_4.png">
+    <p>Brought to a great temple to entertain those who enslaved hi, Samson exacted his revenge. With a final prayer spoken and a final prayer heard, a temple was brought to ruin. And then, nothing.</p>
   </div>
   
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.js" type="text/javascript"></script>
+  <script src="js/tingle.min.js"></script>
   <script src="js/responsiveness.js" type="text/javascript"></script>
   <script defer src="js/rellax.min.js" type="text/javascript"></script>
+  <script defer src="js/modal.js" type="text/javascript"></script>
   <script>
     $(document).ready(function() {
       var rellax = new Rellax('.rellax')

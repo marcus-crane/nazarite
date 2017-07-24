@@ -49,8 +49,25 @@ div {
   width: 75%;
 }
 
-#story img, #modalDesc img {
+#story img, #modalDesc img, .tingle-modal-box img {
   width: 100%;
+}
+
+.modal-hidden {
+  display: none;
+}
+
+button {
+  border: 0;
+  background: transparent;
+}
+
+.tingle-modal-box {
+  transform: scale(1.2) !important;
+}
+
+.tingle-modal-box p {
+  text-align: center;
 }
 
 /* Media Queries */
