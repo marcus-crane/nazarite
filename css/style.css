@@ -76,6 +76,35 @@ button.chapter1, button.chapter2, button.chapter3, button.chapter4 {
   text-align: center;
 }
 
+.arrow {
+  margin-top: -5%;
+  margin-right: 8%;
+  text-align: right;
+}
+
+.arrow a {
+  color: black;
+  text-decoration: none;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
 /* Media Queries */
 @media (min-width: 200px) and (max-width: 599px) {
   #scroll {
@@ -84,6 +113,12 @@ button.chapter1, button.chapter2, button.chapter3, button.chapter4 {
 
   #story {
     top: 8em;
+  }
+
+  .arrow {
+    font-size: 10px;
+    margin-right: 7%;
+    margin-top: -3%;
   }
 }
 
@@ -95,6 +130,11 @@ button.chapter1, button.chapter2, button.chapter3, button.chapter4 {
   #story {
     top: 10em;
   }
+
+  .arrow {
+    font-size: 12px;
+    margin-right: 7.5%;
+  }
 }
 
 @media (min-width: 750px) and (max-width: 999px) {
@@ -104,6 +144,11 @@ button.chapter1, button.chapter2, button.chapter3, button.chapter4 {
 
   #story {
     top: 12em;
+  }
+
+  .arrow {
+    font-size: 14px;
+    margin-right: 7%;
   }
 }
 
