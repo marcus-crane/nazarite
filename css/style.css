@@ -56,8 +56,12 @@ p {
   width: 75%;
 }
 
-#story img, #modalDesc img {
-  width: 50%;
+#story img {
+  width: 65%;
+}
+
+#story img:hover {
+  cursor: pointer;
 }
 
 .modal-hidden {
@@ -111,7 +115,7 @@ button.chapter1, button.chapter2, button.chapter3, button.chapter4 {
 }
 
 /* Media Queries */
-@media (min-width: 200px) and (max-width: 599px) {
+@media (min-width: 0px) and (max-width: 599px) {
   #scroll {
     top: 6em;
   }
@@ -124,6 +128,10 @@ button.chapter1, button.chapter2, button.chapter3, button.chapter4 {
     font-size: 10px;
     margin-right: 7%;
     margin-top: -3%;
+  }
+
+  .tingle-modal-box__content img {
+    width: 100%
   }
 }
 
@@ -140,6 +148,10 @@ button.chapter1, button.chapter2, button.chapter3, button.chapter4 {
     font-size: 12px;
     margin-right: 7.5%;
   }
+
+  .tingle-modal-box__content img {
+    width: 100%
+  }
 }
 
 @media (min-width: 750px) and (max-width: 999px) {
@@ -154,6 +166,10 @@ button.chapter1, button.chapter2, button.chapter3, button.chapter4 {
   .arrow {
     font-size: 14px;
     margin-right: 7%;
+  }
+
+  .tingle-modal-box__content img {
+    width: 100%
   }
 }
 
