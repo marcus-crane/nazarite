@@ -15,6 +15,12 @@ p {
   margin-bottom: 1em;
 }
 
+h1 {
+  font-family: 'Bellefair', serif;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
 /* Page Elements */
 
 #trees {
@@ -68,7 +74,7 @@ p {
   display: none;
 }
 
-button.chapter1, button.chapter2, button.chapter3, button.chapter4 {
+button.chapter1, button.chapter2, button.chapter3, button.chapter4, #credits-modal {
   border: 0;
   background: transparent;
 }
@@ -83,6 +89,10 @@ button.chapter1, button.chapter2, button.chapter3, button.chapter4 {
 
 .tingle-modal-box__content {
   padding: .5rem;
+}
+
+#credits.tingle-modal-box__content {
+  padding: .3rem;
 }
 
 .arrow {
@@ -140,6 +150,13 @@ iframe {
   .tingle-modal-box__content img {
     width: 100%
   }
+
+  #credits {
+    color: white;
+    height: 25px;
+    margin-top: 50%;
+    padding: 5px;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 749px) {
@@ -158,6 +175,13 @@ iframe {
 
   .tingle-modal-box__content img {
     width: 100%
+  }
+
+  #credits {
+    color: white;
+    height: 25px;
+    margin-top: 50%;
+    padding: 5px;
   }
 }
 
@@ -178,6 +202,13 @@ iframe {
   .tingle-modal-box__content img {
     width: 100%
   }
+
+  #credits {
+    color: white;
+    height: 25px;
+    margin-top: 50%;
+    padding: 10px;
+  }
 }
 
 @media (min-width: 1000px) and (max-width: 1199px) {
@@ -187,6 +218,12 @@ iframe {
 
   #story {
     top: 14em;
+  }
+
+  #credits {
+    color: white;
+    margin-top: 58%;
+    padding: 15px;
   }
 }
 
@@ -198,6 +235,12 @@ iframe {
   #story {
     top: 16em;
   }
+
+  #credits {
+    color: white;
+    margin-top: 58%;
+    padding: 15px;
+  }
 }
 
 @media (min-width: 1400px) and (max-width: 1599px) {
@@ -207,6 +250,12 @@ iframe {
 
   #story {
     top: 18em;
+  }
+
+  #credits {
+    color: white;
+    margin-top: 58%;
+    padding: 15px;
   }
 }
 
@@ -218,6 +267,12 @@ iframe {
   #story {
     top: 20em;
   }
+
+  #credits {
+    color: white;
+    margin-top: 58%;
+    padding: 15px;
+  }
 }
 
 @media (min-width: 1800px) {
@@ -227,5 +282,11 @@ iframe {
 
   #story {
     top: 22em;
+  }
+
+  #credits {
+    color: white;
+    margin-top: 58%;
+    padding: 15px;
   }
 }
