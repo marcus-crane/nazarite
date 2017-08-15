@@ -74,7 +74,7 @@ h1 {
   display: none;
 }
 
-button.chapter1, button.chapter2, button.chapter3, button.chapter4, #credits-modal {
+button.chapter1, button.chapter2, button.chapter3, button.chapter4, #credits {
   border: 0;
   background: transparent;
 }
