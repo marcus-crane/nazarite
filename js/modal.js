@@ -21,3 +21,9 @@ var chapter4 = new tingle.modal({ cssClass: ['chapter4-modal'] })
 var btn4 = document.querySelector('.chapter4')
 btn4.addEventListener('click', function() { chapter4.open() })
 chapter4.setContent(document.querySelector('#chapter4').innerHTML)
+
+// Credits
+var credits = new tingle.modal({ cssClass: ['credits-modal'] })
+var creditsBtn = document.querySelector('#credits')
+creditsBtn.addEventListener('click', function() { credits.open() })
+credits.setContent(document.querySelector('#credits-modal').innerHTML)
