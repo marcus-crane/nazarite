@@ -123,6 +123,10 @@ iframe {
   color: white;
 }
 
+.tingle-modal-box__content img {
+  width: 50%;
+}
+
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
