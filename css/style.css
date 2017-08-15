@@ -103,10 +103,10 @@ button.chapter1, button.chapter2, button.chapter3, button.chapter4 {
 }
 
 iframe {
-  bottom: 100px;
-  display: block;
-  margin: 0 auto;
-  position: relative;
+  height: 100%;
+  margin-top: 1.5em;
+  transform: scale(0.7);
+  width: 100%;
 }
 
 @keyframes bounce {
@@ -140,11 +140,6 @@ iframe {
   .tingle-modal-box__content img {
     width: 100%
   }
-
-  iframe {
-    bottom: 100px;
-    transform: scale(0.7);
-  }
 }
 
 @media (min-width: 600px) and (max-width: 749px) {
@@ -163,11 +158,6 @@ iframe {
 
   .tingle-modal-box__content img {
     width: 100%
-  }
-
-  iframe {
-    bottom: 120px;
-    transform: scale(0.8);
   }
 }
 
@@ -188,10 +178,6 @@ iframe {
   .tingle-modal-box__content img {
     width: 100%
   }
-
-  iframe {
-    bottom: 140px;
-  }
 }
 
 @media (min-width: 1000px) and (max-width: 1199px) {
@@ -201,10 +187,6 @@ iframe {
 
   #story {
     top: 14em;
-  }
-
-  iframe {
-    bottom: 170px;
   }
 }
 
@@ -216,10 +198,6 @@ iframe {
   #story {
     top: 16em;
   }
-
-  iframe {
-    bottom: 180px;
-  }
 }
 
 @media (min-width: 1400px) and (max-width: 1599px) {
@@ -229,10 +207,6 @@ iframe {
 
   #story {
     top: 18em;
-  }
-
-  iframe {
-    bottom: 190px;
   }
 }
 
@@ -244,10 +218,6 @@ iframe {
   #story {
     top: 20em;
   }
-
-  iframe {
-    bottom: 200px;
-  }
 }
 
 @media (min-width: 1800px) {
@@ -257,9 +227,5 @@ iframe {
 
   #story {
     top: 22em;
-  }
-
-  iframe {
-    bottom: 170px;
   }
 }
