@@ -4,7 +4,7 @@
 
 What happens if you take someone who isn't the greatest at front end design and get them to create a site for a song release? That's what this is ;)
 
-The actual design of the site was the idea of [Silas McClintock aka Bobandii](https://a
+The actual design of the site was thought up by [Silas McClintock aka Bobandii](https://www.facebook.com/iambobandii/).
 
 It's already "open source" in the sense that it's just HTML, CSS and JS but it's good to release it properly anyway.
 
